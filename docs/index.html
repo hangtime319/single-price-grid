@@ -17,36 +17,37 @@
   </head>
   <body class="text-base font-karla bg-light-gray">
     <main class="flex items-center justify-center h-dvh">
-      <section class="bg-white rounded-lg">
-        <article>
+      <section class="bg-white rounded-lg w-[35dvw] shadow-xl max-sm:w-[80dvw]">
+        <article class="p-10 flex flex-col items-start gap-4 max-sm:p-5">
           <h1 class="text-cyan text-lg font-bold">Join our community</h1>
 
           <p class="text-bright-yellow">30-day, hassle-free money back guarantee</p>
 
-          <p class="text-sm text-grayish-blue">Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.</p>
+          <p class="text-grayish-blue">Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.</p>
         </article>
 
-        <div class="grid grid-cols-2 ">
-          <article class="bg-cyan/90 rounded-bl-lg">
-            <h2 class="text-white text-sm">Monthly Subscription</h2>
+        <div class="grid grid-cols-2 max-sm:grid-cols-1">
+          <article class="bg-cyan/90 rounded-bl-lg flex flex-col justify-around gap-5 p-10 max-sm:rounded-none max-sm:p-5">
+            <h2 class="text-white">Monthly Subscription</h2>
 
-            <p class="text-white text-2xl">&dollar;29 <span class="text-xs opacity-50">per month</span></p>
+            <div>
+            <p class="text-white text-2xl mb-1">&dollar;29 <span class="text-sm opacity-50">per month</span></p>
+            <p class="text-sm text-white">Full access for less than &dollar;1 a day</p>
+            </div>
 
-            <p class="text-xs text-white">Full access for less than &dollar;1 a day</p>
-
-            <button class="text-white text-xs bg-bright-yellow w-full py-3" type="submit">Sign Up</button>
+            <button class="text-white text-sm bg-bright-yellow w-full py-3 rounded-lg shadow-xl" type="submit">Sign Up</button>
           </article>
 
-          <article class="bg-cyan/70 rounded-br-lg">
-            <h2 class="text-white text-sm">Why Us</h2>
+          <article class="bg-cyan/70 rounded-br-lg p-10 max-sm:p-5 rounded-b-lg">
+            <h2 class="text-white mb-2">Why Us</h2>
 
-            <p class="text-xs text-white/60">Tutorials by industry experts</p>
-            <p class="text-xs text-white/60">Peer &amp; expert code review</p>
-            <p class="text-xs text-white/60">Coding exercises</p>
-            <p class="text-xs text-white/60">Access to our GitHub repos</p>
-            <p class="text-xs text-white/60">Community forum</p>
-            <p class="text-xs text-white/60">Flashcard decks</p>
-            <p class="text-xs text-white/60">New videos every week</p>
+            <p class="text-sm text-white/60 mb-1">Tutorials by industry experts</p>
+            <p class="text-sm text-white/60 mb-1">Peer &amp; expert code review</p>
+            <p class="text-sm text-white/60 mb-1">Coding exercises</p>
+            <p class="text-sm text-white/60 mb-1">Access to our GitHub repos</p>
+            <p class="text-sm text-white/60 mb-1">Community forum</p>
+            <p class="text-sm text-white/60 mb-1">Flashcard decks</p>
+            <p class="text-sm text-white/60 mb-1">New videos every week</p>
           </article>
         </div>
       </section>
@@ -57,4 +58,3 @@
     </footer>
   </body>
 </html>
-<!-- npx tailwindcss -i ./docs/input.css -o ./docs/output.css --watch -->
